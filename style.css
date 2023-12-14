@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Black Ops one;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.top {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+    background-color: rgb(252, 242, 242);
+    border-bottom: 2px solid black;
+}
+
+.top h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 6.5rem;
+    line-height: 6rem;
+    text-align: center;
+}
+
+.top h1 span:first-child {
+    color: #CBCBCB;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.716);
+}
+
+.top h1 span:last-child {
+    color: #45b7f5;
+    text-shadow: 2px 4px 4px rgb(0, 0, 0);
+}
+
+.top img {
+    /* border: 1px solid; */
+    position: absolute;
+    top: 30%;
+    filter: drop-shadow(2px 3px 2px black);
+    height: 4.3rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navbar button:active{
+    font-size: 19px;
+    background-color: black;
+    color: white;
+}
+.navbar button:hover{
+    font-size: 21px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    background-color: rgba(54, 69, 69, 0.493);
+}
+.navbar button {
+    margin: 5px;
+    padding: 5px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.gamebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gamebar .player {
+    border: 1px solid;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.gamebar .player img{
+    height:200px;
+    margin: 10px;
+}
+.gamebar .player h1 {
+    border: 1px solid;
+}
+.win{
+    text-align: center;
+}
